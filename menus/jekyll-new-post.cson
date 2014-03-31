@@ -5,7 +5,7 @@
     'submenu': [
       'label': 'Jekyll New post'
       'submenu': [
-        { 'label': 'Create a new Post', 'command': 'jekyll-new-post:toggle' }
+        { 'label': 'Create a new Post', 'command': 'jekyll-new-post:new-post' }
       ]
     ]
   }
