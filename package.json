@@ -1,0 +1,15 @@
+{
+  "name": "jekyll-new-post",
+  "main": "./lib/jekyll-new-post",
+  "version": "0.0.0",
+  "description": "A dialog for creating Jekyll posts. Turns your title into a file name with the basics.",
+  "activationEvents": ["jekyll-new-post:toggle"],
+  "repository": "https://github.com/arcath/jekyll-new-post",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.0.4"
+  }
+}

@@ -1,0 +1,12 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Jekyll New post'
+      'submenu': [
+        { 'label': 'Create a new Post', 'command': 'jekyll-new-post:toggle' }
+      ]
+    ]
+  }
+]
