@@ -1,7 +1,7 @@
 {
   "name": "jekyll-new-post",
   "main": "./lib/jekyll-new-post",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A dialog for creating Jekyll posts. Turns your title into a file name with the basics.",
   "activationEvents": [
     "jekyll-new-post:toggle"
