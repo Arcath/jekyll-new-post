@@ -44,7 +44,7 @@ class JekyllNewPostView extends View
   onConfirm: (title) ->
     fileName = @generateFileName(title)
     dateString = @generateDateString()
-    relativePath = "_posts/" + fileName + ".markdown"
+    relativePath = atom.config.get('jekyll-new-post.postsDir') + fileName + atom.config.get('jekyll-new-post.fileType')
     endsWithDirectorySeparator = /\/$/.test(relativePath)
     pathToCreate = atom.project.resolve(relativePath)
     return unless pathToCreate
