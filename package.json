@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "description": "A dialog for creating Jekyll posts. Turns your title into a file name with the basics.",
   "activationEvents": [
-    "jekyll-new-post:toggle"
+    "jekyll-new-post:new-post"
   ],
   "repository": "https://github.com/arcath/jekyll-new-post",
   "license": "MIT",
