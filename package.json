@@ -3,9 +3,9 @@
   "main": "./lib/jekyll-new-post",
   "version": "0.1.2",
   "description": "A dialog for creating Jekyll posts. Turns your title into a file name with the basics.",
-  "activationEvents": [
-    "jekyll-new-post:new-post"
-  ],
+  "activationCommands": {
+    "atom-workspace": "jekyll-new-post:new-post"
+  },
   "repository": "https://github.com/arcath/jekyll-new-post",
   "license": "MIT",
   "engines": {
